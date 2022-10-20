@@ -1,10 +1,10 @@
 body {
-    background-color:yellowgreen;
+    background-color:rgb(188, 226, 158);
 }
 
 header {
-    background-color: blue;
-    height: 118px;
+    background-color:rgb(229, 235, 178);
+    height: 100px;
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -13,37 +13,59 @@ header {
 
 nav {
     background-color:transparent;
-    height: 70px;
-    width: 500px;
+    height: 125px;
+    width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/03/11/37/notes-311995_960_720.png);
+    background-size: 300px;
 }
 
 main {
-    background-color:orange;
+    background-color:rgb(248, 196, 180);
     height: 550px;
     width: 550px;
     float: left;
     float: right;
     border-style: solid;
     border-width: 50px;
-    border-color: blueviolet;
+    border-color:rgb(255, 135, 135);
+    background-image: url(https://deutschrap.co/wp-content/uploads/2022/08/Harry-Styles-nimmt-bei-den-MTV-Video-Music-Awards-den.jpg);
+    background-size: 600px;
 }
  
 
 footer {
-    background-color:green;
+    background-color:rgb(248, 196, 180);
     height: 550px;
     width: 1000px; 
     border-style: solid;
     border-width: 50px;
-    border-color: blueviolet;
+    border-color:rgb(255, 135, 135);
 }
-
-
 
 
 h1 {
-color: aliceblue;
-font-style: italic;
-text-align: center;
-text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
 }
+
+h2 {
+    color: black;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+a {
+    color: brown; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px; 
+}
+
